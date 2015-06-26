@@ -1,0 +1,85 @@
+﻿@import "layout.less";
+
+.title-footer {
+    display: block;
+    position: relative;
+
+    i {
+        color: @pale-text;
+        font-family: Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+    }
+}
+
+.footer-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: -3;
+
+    img {
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+.footer {
+    position: relative;
+
+    .footer-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: -4;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.footer-left-side-text {
+    span {
+        color: @dark-grey-text;
+        padding-right: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+    }
+}
+
+.footer-center-text {
+
+    a {
+        color: @dark-grey-text;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        border-right: 1.5px groove @pale-text;
+        padding-left: 6px;
+        padding-right: 6px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: @dark;
+    }
+
+    a:last-child {
+        border-right: none;
+    }
+}
+
+.footer-number {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    color: @pale-text;
+    font-size: 13px;
+}

@@ -1,0 +1,224 @@
+﻿@import "layout.less";
+
+.header {
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.4);
+    color: @lightpale;
+
+    .logo {
+        height: 70%;
+        width: 70%;
+        margin-left: 40px;
+        margin-top: 8px;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        -webkit-perspective: 600px;
+        -moz-perspective: 600px;
+        -o-perspective: 600px;
+        perspective: 600px;
+    }
+
+    .logo:hover {
+        transform: rotateY( -360deg );
+    }
+
+
+    .header-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .menu-info {
+        .lines {
+            position: absolute;
+            margin-top: 9px;
+        }
+    }
+
+    .trucks {
+        position: relative;
+
+        .searcharea {
+            top: 20px;
+
+            .navbar-form {
+                margin-top: 0;
+            }
+
+            #srch-term {
+                width: 138px;
+                background-color: #e8e8e8;
+                border-radius: 0;
+                -moz-box-sizing: border-box; /* Для Firefox */
+                box-sizing: border-box; /* Ширина блока с полями */
+            }
+            .add-on {
+                float:right;
+            }
+            .add-on .input-group-btn > .btn {
+                border-left-width: 0;
+                left: -2px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                border-radius: 0;
+                background-color: #e8e8e8;
+            }
+
+            .input-group-btn {
+                i {
+                    color: @lightpale;
+                }
+            }
+
+            .add-on .form-control:focus {
+                box-shadow: none;
+                -webkit-box-shadow: none;
+                border-color: #cccccc;
+            }
+        }
+
+        .company-name {
+            position: relative;
+            font-family: terminator, sans-serif;
+            color: @dark-red-text;
+            font-size: 42px;
+
+            span {
+                font-size: 18px;
+            }
+        }
+
+        .row > div {
+            //   margin-top: 30px;
+            // margin-bottom: px;
+        }
+
+        @media (max-width: 994px) {
+            .row > div {
+                //margin-top: 14px;
+                // margin-bottom: 15px;
+            }
+        }
+
+        .services-list {
+            position: relative;
+            margin-bottom: 35px;
+
+            li a {
+                font-size: 17px;
+                color: @lightpale-text;
+            }
+
+            li a:hover {
+                cursor: pointer;
+                text-decoration: none;
+                color: @red;
+            }
+        }
+
+        .navigation-top {
+            position: relative;
+            float:right;            
+            padding-top: 30px;
+
+            img {
+                margin-top: -8px;
+                margin-left: -35px;
+            }
+
+            a {
+                font-size: 14.7px;
+                font-family: monumento, sans-serif;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: @dark-text;
+                padding-left: 12px;
+            }
+
+            a:hover {
+                cursor: pointer;
+                text-decoration: none;
+                color: @red;
+            }
+        }
+
+        .phone-number {
+            position: relative;
+            top: 21px;
+            font-family: europe, sans-serif;
+            font-size: 18px;
+
+
+            img {
+                position: relative;
+                margin-top: -5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-bottom: 24px;
+            }
+
+            span {
+                font-size: 18px;
+                float: right;
+                text-decoration: underline;
+
+                a {
+                    color: @red-text;
+                }
+
+                a:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+
+    .under-header-menu {
+        position: relative;
+        margin-top: 16px;
+        margin-left: 46px;
+        .bus {
+
+            img {
+                position: absolute;
+                margin-left: -12px;
+            }
+        }
+
+        .btn-container {
+            position: absolute;
+            margin-left: 80px;
+        }
+
+        button {
+            border-radius: 0;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-family: monumento, sans-serif;
+        }
+
+        .left-button-red {
+            border-radius: 0 0 0 8px;
+        }
+
+        .right-button-red {
+            border-radius: 0 0 8px 0;
+        }
+
+        .under-line-bus {
+            position: absolute;
+        }
+    }
+}
