@@ -274,7 +274,7 @@ h6 {
   position: absolute;
   color: white;
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   vertical-align: central;
 }
@@ -286,7 +286,7 @@ h6 {
   position: absolute;
   color: white;
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: -20px;
   width: 240px;
   text-align: center;
@@ -301,6 +301,9 @@ h6 {
 .img-container .red-description .arrow-btn:hover {
   cursor: pointer;
 }
+.list-backround-container {
+  display: none;
+}
 .list-backround-container img {
   position: absolute;
   height: 230px;
@@ -309,6 +312,7 @@ h6 {
   opacity: 0.6;
   margin-left: 6px;
   margin-top: -3px;
+  border-radius: 8px;
 }
 .list-backround-container ul {
   position: absolute;
@@ -326,5 +330,63 @@ h6 {
 .list-backround-container ul li b {
   padding-right: 3px;
   font-family: Arial;
+}
+.bottom img {
+  position: absolute;
+  height: 230px;
+  width: 250px;
+  z-index: 22;
+  opacity: 0.6;
+  margin-left: 6px;
+  margin-top: -227px;
+}
+.bottom ul {
+  margin-top: -242px;
+}
+.bottom-img-container .red-description {
+  position: absolute;
+  z-index: 33;
+  margin-top: -179px;
+  margin-left: 6px;
+}
+.bottom-img-container .red-description span:first-child {
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  width: 240px;
+  text-align: center;
+  line-height: 42px;
+}
+.bottom-img-container .red-description .arrow-btn {
+  position: absolute;
+  margin-left: 180px;
+  font-size: 1.7em;
+  color: white;
+  line-height: 42px;
+}
+.bottom-img-container .red-description .arrow-btn:hover {
+  cursor: pointer;
+}
+.bottom-img-container .inner-img {
+  margin-top: -210px;
+  margin-left: 8px;
+}
+.bottom-img-container .inner-img img {
+  width: 247px;
+}
+.bottom-img-container .inner-img .red-btn {
+  z-index: 33;
+}
+.bottom-img-container span:last-child {
+  width: 262px;
+  line-height: 42px;
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: central;
+  z-index: 88;
 }
 /*# sourceMappingURL=main.css.map */

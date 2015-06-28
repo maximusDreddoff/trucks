@@ -121,7 +121,7 @@
         position: absolute;
         color: white;
         font-family: Arial, sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         vertical-align: central;
     }
@@ -134,7 +134,7 @@
             position: absolute;
             color: white;
             font-family: Arial, sans-serif;
-            font-size: 18px;
+            font-size: 16px;
             margin-top: -20px;
             width: 240px;
             text-align: center;
@@ -155,6 +155,7 @@
 }
 
 .list-backround-container {
+     display:none;
     img {
         position: absolute;
         height: 230px;
@@ -163,6 +164,7 @@
         opacity: 0.6;
         margin-left: 6px;
         margin-top: -3px;
+        border-radius: 8px;
     }
 
     ul {
@@ -175,12 +177,88 @@
             margin-left: -5px;
             position: relative;
             z-index: 55;
-            font-family:Tahoma, sans-serif;
-            font-size:15px;
+            font-family: Tahoma, sans-serif;
+            font-size: 15px;
+
             b {
                 padding-right: 3px;
-                    font-family:Arial;
+                font-family: Arial;
             }
         }
+    }
+}
+
+.bottom {
+    img {
+        position: absolute;
+        height: 230px;
+        width: 250px;
+        z-index: 22;
+        opacity: 0.6;
+        margin-left: 6px;
+        margin-top: -227px;
+    }
+
+    ul {
+        margin-top: -242px;
+    }
+}
+
+.bottom-img-container {
+
+    .red-description {
+        position: absolute;
+        z-index: 33;
+        margin-top: -179px;
+        margin-left: 6px;
+
+        span:first-child {
+            position: absolute;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            width: 240px;
+            text-align: center;
+            line-height: 42px;
+        }
+
+        .arrow-btn {
+            position: absolute;
+            margin-left: 180px;
+            // margin-top: -10px;
+            font-size: 1.7em;
+            color: white;
+            line-height: 42px;
+        }
+
+        .arrow-btn:hover {
+            cursor: pointer;
+        }
+    }
+
+    .inner-img {
+        margin-top: -210px;
+        margin-left: 8px;
+
+        img {
+            width: 247px;
+        }
+
+        .red-btn {
+            // margin-top: -120px;
+            z-index: 33;
+        }
+    }
+
+    span:last-child {
+        width: 262px;
+        line-height: 42px;
+        position: absolute;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        text-align: center;
+        vertical-align: central;
+        z-index: 88;
     }
 }
