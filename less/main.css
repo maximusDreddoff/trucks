@@ -389,4 +389,14 @@ h6 {
   vertical-align: central;
   z-index: 88;
 }
+.red-icon-cells {
+  padding-top: 60px;
+}
+.red-icon-cells span {
+  color: #910000;
+  position: absolute;
+  padding-left: 10px;
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+}
 /*# sourceMappingURL=main.css.map */
