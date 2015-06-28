@@ -266,6 +266,7 @@ h6 {
 }
 .inner-img .red-btn {
   margin-top: -20px;
+  z-index: 33;
 }
 .img-container span:first-child {
   width: 262px;
@@ -276,6 +277,10 @@ h6 {
   font-size: 20px;
   text-align: center;
   vertical-align: central;
+}
+.img-container .red-description {
+  position: absolute;
+  z-index: 33;
 }
 .img-container .red-description span:first-child {
   position: absolute;
@@ -289,11 +294,37 @@ h6 {
 .img-container .red-description .arrow-btn {
   position: absolute;
   margin-left: 180px;
-  margin-top: 182px;
+  margin-top: -10px;
   font-size: 1.7em;
   color: white;
 }
 .img-container .red-description .arrow-btn:hover {
   cursor: pointer;
+}
+.list-backround-container img {
+  position: absolute;
+  height: 230px;
+  width: 250px;
+  z-index: 22;
+  opacity: 0.6;
+  margin-left: 6px;
+  margin-top: -3px;
+}
+.list-backround-container ul {
+  position: absolute;
+  width: 245px;
+  list-style-type: none;
+}
+.list-backround-container ul li {
+  padding-top: 5px;
+  margin-left: -5px;
+  position: relative;
+  z-index: 55;
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+}
+.list-backround-container ul li b {
+  padding-right: 3px;
+  font-family: Arial;
 }
 /*# sourceMappingURL=main.css.map */

@@ -110,9 +110,8 @@
 
     .red-btn {
         margin-top: -20px;
+        z-index: 33;
     }
-
-
 }
 
 .img-container {
@@ -128,6 +127,9 @@
     }
 
     .red-description {
+        position: absolute;
+        z-index: 33;
+
         span:first-child {
             position: absolute;
             color: white;
@@ -141,14 +143,44 @@
         .arrow-btn {
             position: absolute;
             margin-left: 180px;
-            margin-top: 182px;
-                font-size: 1.7em;
-                color: white;
-
+            margin-top: -10px;
+            font-size: 1.7em;
+            color: white;
         }
+
         .arrow-btn:hover {
             cursor: pointer;
         }
+    }
+}
 
+.list-backround-container {
+    img {
+        position: absolute;
+        height: 230px;
+        width: 250px;
+        z-index: 22;
+        opacity: 0.6;
+        margin-left: 6px;
+        margin-top: -3px;
+    }
+
+    ul {
+        position: absolute;
+        width: 245px;
+        list-style-type: none;
+
+        li {
+            padding-top: 5px;
+            margin-left: -5px;
+            position: relative;
+            z-index: 55;
+            font-family:Tahoma, sans-serif;
+            font-size:15px;
+            b {
+                padding-right: 3px;
+                    font-family:Arial;
+            }
+        }
     }
 }
