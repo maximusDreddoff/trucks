@@ -25,14 +25,80 @@
 <body>
     <div id="js-header"></div>
     <script type="text/javascript">
-        $("#js-header").load("header.html");
+        $("#js-header").load("header-main.html");
     </script>
+    <!--slider-->
+    <div class="slider">
+        <div id="carousel" class="carousel slide">
+            <!--slides indicators-->
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <!--slides-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/static-page-crop/slider-image.png" alt="truck">
+                    <!--carousel-text-->
+                    <div class="carousel-caption">
+                        <h2>надёжность</h2>
+                        <h3>и долговечность</h3>
+                        <h1>
+                            <b>
+                                <span><</span> 3 года <span>гарантии ></span>
+                            </b>
+                        </h1>
+                        <div class="padding-top-mdl"></div>
+                        <button class="slider-btn btn btn-danger">Подробнее...</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/static-page-crop/slider-image.png" alt="truck">
+                    <!--carousel-text-->
+                    <div class="carousel-caption">
+                        <h2>надёжность</h2>
+                        <h3>и долговечность</h3>
+                        <h1>
+                            <b>
+                                <span><</span> 3 года <span>гарантии ></span>
+                            </b>
+                        </h1>
+                        <div class="padding-top-mdl"></div>
+                        <button class="slider-btn btn btn-danger">Подробнее...</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/static-page-crop/slider-image.png" alt="truck">
+                    <!--carousel-text-->
+                    <div class="carousel-caption">
+                        <h2>надёжность</h2>
+                        <h3>и долговечность</h3>
+                        <h1>
+                            <b>
+                                <span><</span> 3 года <span>гарантии ></span>
+                            </b>
+                        </h1>
+                        <div class="padding-top-mdl"></div>
+                        <button class="slider-btn btn btn-danger">Подробнее...</button>
+                    </div>
+                </div>
+            </div>
+            <!--arrows-->
+
+            <a href="#carousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#carousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+    <!--Eo slider-->
     <div class="container">
         <div class="row padding-top">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="slider">
-                    тут будет слайдер
-                </div>
+
             </div>
             <div class="clearfix"></div>
 
@@ -90,10 +156,9 @@
                 </div>
             </div>
             <!--Eo news-right-side-bar-->
-
             <!--products cat-->
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 catalog">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-top catalog">
                 <div class="bus">
                     <img src="img/static-page-crop/bus.png" />
                 </div>
@@ -137,73 +202,158 @@
             </div>
             <!--Eo products-cat-->
             <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2"></div>
-            <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8 advances-of-the-product">преимущества нашей продукции</div>
+            <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8 advances-of-the-product">
+                <span><a href="javascript: void(0);">преимущества нашей продукции</a></span>
+            </div>
             <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2"></div>
+            <!--advances-block-->
+            <div class="clearfix"></div>
+            <div class="padding-top"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 img-container">
+                <div>
+                    <span>Дверной проём</span>
+                    <img src="img/main-page/cell-background-vertical.png" />
+                    <div class="inner-img">
+                        <img src="img/main-page/doorway.png" />
+                        <div class="red-description">
+                            <span>Подробнее</span>
+                            <span>
+                                <i class="glyphicon glyphicon-circle-arrow-down arrow-btn"></i> 
+                            </span>
+                            <img src="img/main-page/red-btn-inverted.png" class="red-btn" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 img-container">
+                <div>
+                    <span>Дверной проём</span>
+                    <img src="img/main-page/cell-background-vertical.png" />
+                    <div class="inner-img">
+                        <img src="img/main-page/doorway.png" />
+                        <div class="red-description">
+                            <span>Подробнее</span>
+                            <span>
+                                <i class="glyphicon glyphicon-circle-arrow-down arrow-btn"></i>
+                            </span>
+                            <img src="img/main-page/red-btn-inverted.png" class="red-btn" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 img-container">
+                <div>
+                    <span>Дверной проём</span>
+                    <img src="img/main-page/cell-background-vertical.png" />
+                    <div class="inner-img">
+                        <img src="img/main-page/doorway.png" />
+                        <div class="red-description">
+                            <span>Подробнее</span>
+                            <span>
+                                <i class="glyphicon glyphicon-circle-arrow-down arrow-btn"></i>
+                            </span>
+                            <img src="img/main-page/red-btn-inverted.png" class="red-btn" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 img-container">
+                <div>
+                    <span>Дверной проём</span>
+                    <img src="img/main-page/cell-background-vertical.png" />
+                    <div class="inner-img">
+                        <img src="img/main-page/doorway.png" />
+                        <div class="red-description">
+                            <span>Подробнее</span>
+                            <span>
+                                <i class="glyphicon glyphicon-circle-arrow-down arrow-btn"></i>
+                            </span>
+                            <img src="img/main-page/red-btn-inverted.png" class="red-btn" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 description-image">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                    <img src="img/main-page/truck-with-description.png" />
+                </div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">первый блок</div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">второй блок</div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">третий блок</div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">четвертый блок</div>
 
         </div>
     </div>
 
-        <div id="js-footer"></div>
+    <div id="js-footer"></div>
 
-        <script type="text/javascript">
-            $("#js-footer").load("footer.html");
-        </script>
+    <script type="text/javascript">
+        $("#js-footer").load("footer.html");
+    </script>
 
 
 
-        <!--<div class="header-background">
-            <img src="img/static-page/header-background.png" alt="background" title="header-picture" />
-        </div>
+    <!--<div class="header-background">
+        <img src="img/static-page/header-background.png" alt="background" title="header-picture" />
+    </div>
 
-        <div class="header-container">
-            <div>
-                <img src="img/static-page/logo.png" alt="logo" title="logo" class="logo" />
-                <span class="company-name">TCT<span>трейд</span></span>
+    <div class="header-container">
+        <div>
+            <img src="img/static-page/logo.png" alt="logo" title="logo" class="logo" />
+            <span class="company-name">TCT<span>трейд</span></span>
 
-                <img src="img/static-page/lines.png" alt="line" class="lines"/>
-                <span class="navigation-top">
-                    <img src="img/static-page/house-icon.png" class="house-icon" />
-                    <a>продукция</a>
-                    <a>услуги</a>
-                    <a>акции</a>
-                    <a>лизинг и кредит</a>
-                    <a>контакты</a>
+            <img src="img/static-page/lines.png" alt="line" class="lines"/>
+            <span class="navigation-top">
+                <img src="img/static-page/house-icon.png" class="house-icon" />
+                <a>продукция</a>
+                <a>услуги</a>
+                <a>акции</a>
+                <a>лизинг и кредит</a>
+                <a>контакты</a>
+            </span>
+            <ul class="list-menu">
+                <li><a>производство</a></li>
+                <li><a>продажа</a></li>
+                <li><a>сервис</a></li>
+            </ul>
+            <div class="number">
+                4211242
+                <span>
+                    <img src="img/static-page/phone.png" />
                 </span>
-                <ul class="list-menu">
-                    <li><a>производство</a></li>
-                    <li><a>продажа</a></li>
-                    <li><a>сервис</a></li>
-                </ul>
-                <div class="number">
-                    4211242
-                    <span>
-                        <img src="img/static-page/phone.png" />
-                    </span>
-                    <span>
-                        заказать звонок
-                    </span>
-                </div>
-            </div>
-
-            <div>
+                <span>
+                    заказать звонок
+                </span>
             </div>
         </div>
 
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-            -->
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/layout.js"></script>
-        <script src="js/index-page.js"></script>
-        <script src="plugins/sliderpro/jquery.sliderPro.min.js"></script>
+        <div>
+        </div>
+    </div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+        -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/index-page.js"></script>
+    <script src="plugins/sliderpro/jquery.sliderPro.min.js"></script>
 </body>
+
+
 
 </html>

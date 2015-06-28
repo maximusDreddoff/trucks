@@ -218,4 +218,82 @@ h6 {
   text-transform: uppercase;
   text-align: center;
 }
+.advances-of-the-product a {
+  color: #e90204;
+  text-decoration: none;
+}
+.slider {
+  margin-top: -49px;
+}
+.slider h2 {
+  font-family: europe, sans-serif;
+  font-size: 30px;
+  color: #9ca0a5;
+}
+.slider h3 {
+  color: #7c7d85;
+  font-family: europe, sans-serif;
+  font-size: 23px;
+}
+.slider h1 {
+  font-family: Meiryo 'Meiryo UI', sans-serif;
+  font-size: 40px;
+  color: #d9534f;
+  margin-left: 41px;
+}
+.slider h1 span {
+  font-size: 24px;
+}
+.slider .btn {
+  margin-left: 41px;
+}
+.bus {
+  display: none;
+}
+.header .btn-container {
+  margin-top: 4px;
+}
+.description-image {
+  display: block;
+  margin: 0 auto;
+}
+.inner-img {
+  margin-top: -192px;
+  margin-left: 8px;
+}
+.inner-img img {
+  width: 247px;
+}
+.inner-img .red-btn {
+  margin-top: -20px;
+}
+.img-container span:first-child {
+  width: 262px;
+  line-height: 42px;
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: central;
+}
+.img-container .red-description span:first-child {
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-top: -20px;
+  width: 240px;
+  text-align: center;
+}
+.img-container .red-description .arrow-btn {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 182px;
+  font-size: 1.7em;
+  color: white;
+}
+.img-container .red-description .arrow-btn:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
