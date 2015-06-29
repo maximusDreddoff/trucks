@@ -240,6 +240,9 @@ h6 {
   color: #e90204;
   text-decoration: none;
 }
+.carousel {
+  border: 1px solid white;
+}
 .slider {
   margin-top: -50px;
 }
@@ -333,7 +336,7 @@ h6 {
 }
 .list-backround-container img {
   position: absolute;
-  height: 237px;
+  height: 247px;
   width: 250px;
   z-index: 22;
   opacity: 0.6;
