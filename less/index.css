@@ -200,4 +200,230 @@ h6 {
 .news-block a:hover {
   cursor: pointer;
 }
+.under-text-line {
+  margin-left: 15px;
+  padding-right: -17px;
+}
+.catalog span {
+  position: absolute;
+  color: #e90204;
+  font-family: arial-narrow, sans-serif;
+  font-size: 30px;
+  margin-top: -40px;
+  margin-left: 125px;
+}
+.catalog span a {
+  color: #e90204;
+  font-family: arial-narrow, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.catalog span a:hover {
+  text-decoration: none;
+}
+.catalog-image-container img {
+  height: 195px;
+}
+.catalog-image-container div {
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+}
+.advances-of-the-product {
+  color: #e90204;
+  font-family: arial-narrow, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.advances-of-the-product a {
+  color: #e90204;
+  text-decoration: none;
+}
+.slider {
+  margin-top: -50px;
+}
+.slider .carousel-caption {
+  top: 20px;
+}
+.slider .carousel-caption img {
+  width: 512px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 18px;
+}
+.slider h2 {
+  font-family: europe, sans-serif;
+  font-size: 30px;
+  color: #9ca0a5;
+}
+.slider h3 {
+  color: #7c7d85;
+  font-family: europe, sans-serif;
+  font-size: 23px;
+}
+.slider h1 {
+  font-family: Meiryo 'Meiryo UI', sans-serif;
+  font-size: 40px;
+  color: #d9534f;
+  margin-left: 2px;
+}
+.slider h1 span {
+  font-size: 24px;
+}
+.slider .btn {
+  margin-left: 41px;
+}
+.bus {
+  display: none;
+}
+.header .btn-container {
+  margin-top: 7px;
+}
+.description-image {
+  display: block;
+  margin: 0 auto;
+}
+.inner-img {
+  margin-top: -192px;
+  margin-left: 8px;
+}
+.inner-img img {
+  width: 247px;
+}
+.inner-img .red-btn {
+  margin-top: -20px;
+  z-index: 33;
+}
+.img-container span:first-child {
+  width: 262px;
+  line-height: 42px;
+  position: absolute;
+  color: white;
+  font-family: 'Meiryo UI', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: central;
+}
+.img-container .red-description {
+  position: absolute;
+  z-index: 33;
+}
+.img-container .red-description span:first-child {
+  position: absolute;
+  color: white;
+  font-family: 'Meiryo UI', sans-serif;
+  font-size: 16px;
+  margin-top: -20px;
+  width: 240px;
+  text-align: center;
+}
+.img-container .red-description .arrow-btn {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -10px;
+  font-size: 1.7em;
+  color: white;
+}
+.img-container .red-description .arrow-btn:hover {
+  cursor: pointer;
+}
+.list-backround-container {
+  display: none;
+}
+.list-backround-container img {
+  position: absolute;
+  height: 237px;
+  width: 250px;
+  z-index: 22;
+  opacity: 0.6;
+  margin-left: 6px;
+  margin-top: -3px;
+  border-radius: 8px;
+}
+.list-backround-container ul {
+  position: absolute;
+  width: 245px;
+  list-style-type: none;
+}
+.list-backround-container ul li {
+  padding-top: 5px;
+  margin-left: -5px;
+  position: relative;
+  z-index: 55;
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+}
+.list-backround-container ul li b {
+  padding-right: 3px;
+  font-family: Arial;
+}
+.bottom img {
+  position: absolute;
+  height: 230px;
+  width: 250px;
+  z-index: 22;
+  opacity: 0.6;
+  margin-left: 6px;
+  margin-top: -227px;
+}
+.bottom ul {
+  margin-top: -242px;
+}
+.bottom-img-container .red-description {
+  position: absolute;
+  z-index: 33;
+  margin-top: -179px;
+  margin-left: 6px;
+}
+.bottom-img-container .red-description span:first-child {
+  position: absolute;
+  color: white;
+  font-family: 'Meiryo UI', sans-serif;
+  font-size: 16px;
+  width: 240px;
+  text-align: center;
+  line-height: 42px;
+}
+.bottom-img-container .red-description .arrow-btn {
+  position: absolute;
+  margin-left: 180px;
+  font-size: 1.7em;
+  color: white;
+  line-height: 42px;
+}
+.bottom-img-container .red-description .arrow-btn:hover {
+  cursor: pointer;
+}
+.bottom-img-container .inner-img {
+  margin-top: -210px;
+  margin-left: 8px;
+}
+.bottom-img-container .inner-img img {
+  width: 247px;
+}
+.bottom-img-container .inner-img .red-btn {
+  z-index: 33;
+}
+.bottom-img-container span:last-child {
+  width: 262px;
+  line-height: 42px;
+  position: absolute;
+  color: white;
+  font-family: 'Meiryo UI', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: central;
+  z-index: 88;
+}
+.red-icon-cells {
+  padding-top: 60px;
+}
+.red-icon-cells span {
+  color: #910000;
+  position: absolute;
+  padding-left: 10px;
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+}
 /*# sourceMappingURL=index.css.map */
