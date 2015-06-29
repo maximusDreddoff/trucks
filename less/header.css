@@ -114,14 +114,20 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
+  min-width: 100%;
   overflow: hidden;
   z-index: -1;
 }
 .header .header-background img {
-  width: 100%;
+  min-width: 100%;
   height: 100%;
+}
+@media (min-width: 400px) {
+  .header .header-background .header-background,
+  .header .header-background img {
+    width: 1280px!important;
+  }
 }
 .header .menu-info .lines {
   position: absolute;
@@ -131,7 +137,7 @@ h6 {
   position: relative;
 }
 .header .trucks .searcharea {
-  top: 20px;
+  top: 15px;
 }
 .header .trucks .searcharea .navbar-form {
   margin-top: 0;
@@ -147,6 +153,7 @@ h6 {
 }
 .header .trucks .searcharea .add-on {
   float: right;
+  width: 180px;
 }
 .header .trucks .searcharea .add-on .input-group-btn > .btn {
   border-left-width: 0;
@@ -223,9 +230,10 @@ h6 {
   margin-bottom: 24px;
 }
 .header .trucks .phone-number span {
-  font-size: 18px;
+  font-size: 16px;
   float: right;
   text-decoration: underline;
+  font-family: europe, sans-serif;
 }
 .header .trucks .phone-number span a {
   color: #b3252d;

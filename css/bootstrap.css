@@ -1582,14 +1582,24 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+@media (min-width: 200px) {
+  .container {
+    width: 1170px !important;
+  }
+}
+@media (min-width: 400px) {
+  .container {
+    width: 1170px !important;
+  }
+}
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 1170px !important;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 1170px !important;
   }
 }
 @media (min-width: 1200px) {
@@ -3722,7 +3732,7 @@ tbody.collapse.in {
 }
 .input-group {
   position: relative;
-  display: table;
+  display: block;
   border-collapse: separate;
 }
 .input-group[class*="col-"] {
@@ -4131,7 +4141,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  margin-right: -15px;
+  margin-right: -15px;  
   margin-left: -15px;
 }
 @media (min-width: 768px) {

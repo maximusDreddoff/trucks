@@ -243,6 +243,9 @@ h6 {
 .slider {
   margin-top: -49px;
 }
+.slider .carousel-caption {
+  top: 20px;
+}
 .slider h2 {
   font-family: europe, sans-serif;
   font-size: 30px;
@@ -257,7 +260,7 @@ h6 {
   font-family: Meiryo 'Meiryo UI', sans-serif;
   font-size: 40px;
   color: #d9534f;
-  margin-left: 41px;
+  margin-left: 2px;
 }
 .slider h1 span {
   font-size: 24px;

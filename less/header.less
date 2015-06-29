@@ -4,7 +4,7 @@
     position: relative;
     text-shadow: 1px 1px 1px rgba(0,0,0, 0.4);
     color: @lightpale;
-      z-index: 4;
+    z-index: 4;
 
     .logo {
         height: 70%;
@@ -30,14 +30,21 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
         height: 100%;
+        min-width: 100%;
         overflow: hidden;
         z-index: -1;
 
         img {
-            width: 100%;
+            min-width: 100%;
             height: 100%;
+        }
+        @media (min-width: 400px) {
+            .header-background, img {
+                width: 1280px!important;
+                //margin-top: 14px;
+                // margin-bottom: 15px;
+            }
         }
     }
 
@@ -52,7 +59,7 @@
         position: relative;
 
         .searcharea {
-            top: 20px;
+            top: 15px;
 
             .navbar-form {
                 margin-top: 0;
@@ -65,9 +72,12 @@
                 -moz-box-sizing: border-box; /* Для Firefox */
                 box-sizing: border-box; /* Ширина блока с полями */
             }
+
             .add-on {
-                float:right;
+                float: right;
+                  width: 180px;
             }
+
             .add-on .input-group-btn > .btn {
                 border-left-width: 0;
                 left: -2px;
@@ -132,7 +142,7 @@
 
         .navigation-top {
             position: relative;
-            float:right;            
+            float: right;
             padding-top: 30px;
 
 
@@ -173,9 +183,10 @@
             }
 
             span {
-                font-size: 18px;
+                font-size: 16px;
                 float: right;
                 text-decoration: underline;
+                font-family: europe, sans-serif;
 
                 a {
                     color: @red-text;
@@ -192,6 +203,7 @@
         position: relative;
         margin-top: 16px;
         margin-left: 46px;
+
         .bus {
 
             img {
