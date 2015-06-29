@@ -241,10 +241,16 @@ h6 {
   text-decoration: none;
 }
 .slider {
-  margin-top: -49px;
+  margin-top: -50px;
 }
 .slider .carousel-caption {
   top: 20px;
+}
+.slider .carousel-caption img {
+  width: 512px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 18px;
 }
 .slider h2 {
   font-family: europe, sans-serif;
@@ -272,7 +278,7 @@ h6 {
   display: none;
 }
 .header .btn-container {
-  margin-top: 4px;
+  margin-top: 7px;
 }
 .description-image {
   display: block;
